@@ -25,7 +25,7 @@ struct IntroView: View {
             if currentUserSignedIn {
                 Text("Profile View")
             }else{
-                Text("Onboarding View")
+                OnboardingView()
             }
         }
     }
