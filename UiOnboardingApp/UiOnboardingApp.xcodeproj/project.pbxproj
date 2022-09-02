@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221337FE28C16BA500B52535 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221337FD28C16BA500B52535 /* ProfileView.swift */; };
 		222E64C128BF52AF00E0017D /* UiOnboardingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E64C028BF52AF00E0017D /* UiOnboardingAppApp.swift */; };
 		222E64C328BF52AF00E0017D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222E64C228BF52AF00E0017D /* ContentView.swift */; };
 		222E64C528BF52B400E0017D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222E64C428BF52B400E0017D /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221337FD28C16BA500B52535 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		222E64BD28BF52AF00E0017D /* UiOnboardingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UiOnboardingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		222E64C028BF52AF00E0017D /* UiOnboardingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiOnboardingAppApp.swift; sourceTree = "<group>"; };
 		222E64C228BF52AF00E0017D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				222E64CF28BF58EB00E0017D /* IntroView.swift */,
 				2295D9D628BFB4A0004524EF /* OnboardingView.swift */,
+				221337FD28C16BA500B52535 /* ProfileView.swift */,
 			);
 			path = OnboardingViews;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				222E64C328BF52AF00E0017D /* ContentView.swift in Sources */,
 				2295D9D728BFB4A0004524EF /* OnboardingView.swift in Sources */,
+				221337FE28C16BA500B52535 /* ProfileView.swift in Sources */,
 				222E64C128BF52AF00E0017D /* UiOnboardingAppApp.swift in Sources */,
 				222E64D028BF58EB00E0017D /* IntroView.swift in Sources */,
 			);
